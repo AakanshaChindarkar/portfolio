@@ -1,0 +1,56 @@
+*{
+    font-family: "Roboto Slab", serif;
+
+}
+.bg-black{
+    background-color: black;
+}
+.bg-blue{
+    background-color: rgba(0, 191, 255, 0.884);
+}
+
+.bg-blue-txt-gradient{
+    background: linear-gradient(to right, #6A0DAD, #FF69B4);
+
+}
+.main-title{
+    font-size: 3rem;
+}
+.nav-link{
+    font-weight: 800;
+    color: rgb(0 0 0 / 33%);
+}
+.nav-link.active{
+
+    color: #6A0DAD!important;
+
+}
+.nav-link:focus, .nav-link:hover{
+    color: #6A0DAD!important;
+}
+.custom-padding-top{
+    padding-top: 3rem;
+}
+.navbar {
+    background: rgba(255, 255, 255, 0.508); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+/* Apply gradient to text */
+.gradient-text {
+    background: linear-gradient(to right, #6A0DAD, #FF69B4); 
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text itself transparent so the gradient shows through */
+  }
+  
+  .text-muted{
+    font-size: 1.1rem;
+    color: #000!important;  
+  }
+  .circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer; /* Adds a pointer on hover */
+  }
